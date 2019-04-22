@@ -6,7 +6,7 @@
 - After that you just need to start the application either with live server or from your directory.
 - You can immediately talk to the bot. 
 # Room for improvement 
-- AWS Lex has the function call lambda that can be used to take information from API.
+- AWS Lex has the function call lambda that can be used to take information from API and can be connected through javascript
 - Add more intent to make the bot smarter.
 -------------------------------------------------------------------------------------------------------------------------------------
 # Features 
