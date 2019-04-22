@@ -24,4 +24,4 @@
 - What time do you guys open?, Do you guys open on sunday?, When is the right time to call you guys?, etc. (Business hours)
 - I want to know the progress of my application, Can I know the progress of my application?, etc. (Client's progress)
 # Documentation 
-- License can be found in license.mb
+- License can be found in license.md
