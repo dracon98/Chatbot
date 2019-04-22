@@ -1,10 +1,13 @@
-# This is a one page static website with Amazon Lex Chatbot
-# To Start
-- Download the folder and open index.html
-- If you dont have any identityPoolId for Amazon Lex Chatbot/ or you dont have an existing chatbot, please create one first from here: https://console.aws.amazon.com/lex/home?region=us-east-1
-- If you already have one just put change xxx of 'us-east-1:xxx' from chatbot.js with your identityPoolId.
-- After that you just need to start the application either with live server or from your directory.
-- You can immediately talk to the bot. 
+# One page Static Website with Amazon Lex Chatbot
+# QuickStart
+- 1. Download the folder and open index.html
+- 2. If you dont have any identityPoolId for Amazon Lex Chatbot/ or you dont have an existing chatbot, please create one first from here: https://console.aws.amazon.com/lex/home?region=us-east-1
+- 3. After that, set up amazon cognito and create identity pool. If you already have one, jump to number 6.
+- 4. After identity pool is created, You need to modify the IAM roles to allow access to Amazon Lex
+- 5. From the IAM console, you find the roles and change each of them to attach the AmazonLexRunBotsOnly and AmazonPollyReadOnlyAccess policies
+- 6. take the identity pool you got, change xxx of 'us-east-1:xxx' in chatbot.js with your identityPoolId.
+- 7. After that you just need to start the application either with live server or from your directory.
+- 8. You can immediately talk to the bot. 
 # Room for improvement 
 - AWS Lex has the function call lambda that can be used to take information from API and can be connected through javascript
 - Add more intent to make the bot smarter.
